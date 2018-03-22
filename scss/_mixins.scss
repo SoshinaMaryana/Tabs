@@ -1,0 +1,16 @@
+@mixin flex-d($display, $justify, $direction){
+	display: $display;
+	justify-content: $justify;
+	flex-direction: $direction;
+}
+@mixin flex-a($display, $direction, $align){
+	display: $display;
+	flex-direction: $direction;
+	align-items: $align;
+}
+@mixin background-image($src){
+    background-image: url($src), liniar-gradient;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;        
+}
